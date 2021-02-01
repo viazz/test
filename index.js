@@ -3,12 +3,6 @@ const TelegramBot = require('node-telegram-bot-api'),
 
 
 const port = process.env.PORT || 3000
-expressApp.get('/', (req, res) => {
-    res.send('Working!!!')
-})
-expressApp.listen(port, () => {
-    console.log(`Listening on port ${port}`)
-})
 
 const options = {
   webHook: {
