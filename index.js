@@ -15,7 +15,7 @@ const options = {
     port: port
   }
 };
-const url_telegram = process.env.APP_URL || 'https://post-spotify-reddit-bots.herokuapp.com:443';
+const url_telegram = process.env.APP_URL || 'https://spotify-reddit-bots.herokuapp.com:443';
 
 console.log('Script start...')
 
