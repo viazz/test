@@ -17,7 +17,7 @@ const bot = new TelegramBot(token, options);//Filmix
 
 bot.setWebHook(`${url_telegram}/bot${token}`);
 
-bot.on('massage',msg => {
+bot.on('message',msg => {
     bot.sendMessage(msg.chat.id,'Hi')
     console.log(msg.chat.id)
 })
